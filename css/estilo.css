@@ -1,0 +1,38 @@
+
+@keyframes imgMove {
+    0% {
+      transform: rotate(0deg) translateX(0);
+    }
+    50% {
+      transform: rotate(0deg) translateX(-5px);
+    }
+    100% {
+      transform: rotate(0deg) translateX(0);
+    }
+  }
+  
+  .hero-header2 img {
+    animation: imgMove 0s ease-in-out infinite;
+    }
+    .hero-header2 {
+    background-image: url(https://fondosmil.com/fondo/28255.jpg);
+    background-color: rgba(0, 0, 0, 0.10); /* Opacidad: 0.5 */
+  }
+  
+  /* Estilos adicionales para ajustar el tamaño y posición de la imagen de fondo */
+  .hero-header2 {
+    background-size: cover;
+    background-position: center;
+  }
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .video-container video {
+    width: auto;
+    height: auto;
+  }
+
+  
